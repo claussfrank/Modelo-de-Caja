@@ -1,0 +1,60 @@
+.link{
+  font-weight: 700;
+  padding: 21px;
+  display:inline-block;
+}
+.logo{
+  float: right;/* Hacemos que  el logo lo posicione al lado derecho*/
+}
+header{
+  position:fixed; /*hace que nuestro menu este fijo */
+  background:white;
+  width: 100%;
+  top:0;
+}
+.menu{
+  padding:14px 70px;
+  overflow: auto;
+}
+#home{
+  background-image: url(../img/bg-home.jpg); /*Nuestra Imagen de portada*/
+  background-position: center;/*Posicion de nuestra imagen al centro */
+  background-repeat:no-repeat; /*No repetir nuestra imagen de fondo */
+  background-size:cover; /*Cubre todo el tamaño del contenedor*/
+  height:554px; /* Altura de nuestro home*/
+  text-align: center; /*Alineacion al centro */
+  margin-top:80px; /*Darle un margen en la parte de arriba */
+}
+#home .container{
+  color:white; /*color blanco a los textos*/
+  padding: 70px; /*Relleno de 70px en todos los lados(top,right,bottom y left)*/
+}
+.text-home{
+  font-size: 53px; /*tamaño de la tipografia*/
+}
+.btn-home{
+  background:#2ECC71; /* Color de fondo */
+  color:#fff; /* Color del texto*/
+  padding:11px 20px; /* Relleno en el botón 11px (top-botton) y 20px (lef -right)*/
+  border-radius:1px; /*redondear el borde 1px*/
+  font-weight: 500;
+  text-transform: uppercase; /*Convierte el texto a Mayusculas*/
+  margin-top:63px; /*margen en la parte de arriba :63px*/
+  display: inline-block;
+  font-size:14px; /*Tamaño de letra:14px */
+}
+#services{
+  background-color: #F17C72; /*Color de fondo*/
+  text-align:center; /*Alineacion centro */
+  color: #fff; /*color al texto:blanco */
+  padding:70px 7px; /* Relleno en  el botón 70px(top-botton) y 7px (left-right)*/
+}
+.box-services{
+  display: inline-block;
+  width: 30%; /*Para que las cajas tengan un ancho de 30%*/
+  margin-top:63px; /*margen de la parte de arriba: 63px */
+}
+.text-services {
+  font-size: 35px; /*Tamaño de la letra */
+  letter-spacing: 2px;/*Espacio entre cada letra */
+}
